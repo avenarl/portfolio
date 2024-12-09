@@ -1,0 +1,30 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Personal Portfolio",
+  "main": "app.js",
+  "directories": {},
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ravenrodrigo/portfolio.git"
+  },
+  "keywords": [
+    "Portfolio"
+  ],
+  "author": "Raven Rodrigo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravenrodrigo/portfolio/issues"
+  },
+  "homepage": "https://github.com/ravenrodrigo/portfolio#readme",
+  "dependencies": {
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
